@@ -1,5 +1,7 @@
 # Text Graph Synth & Sequencer
 
+Overview:
+
 My program is a highly customizable text to musical sequence parser, that takes
 in compile-time randomized or runtime user-specified binds between letters and
 audio processors with customizable (and also compile-time randomized) parameters,
