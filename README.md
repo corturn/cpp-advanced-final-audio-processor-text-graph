@@ -3,12 +3,13 @@
 Overview:
 
 My program is a highly customizable text to musical sequence parser, that takes
-in compile-time randomized or runtime user-specified binds between letters and
+compile-time randomized or runtime user-specified binds between letters and
 audio processors with customizable (and also compile-time randomized) parameters,
-along with the specific order of letters, how they are divided into words, as well
-as a parenthetical syntax that allows for generating "pulses" as an alternative to
-holding out notes indefinitely. From a sequence of letters, the program builds an
-audio processor graph which is ultimately connected out to your speakers.
+and a user-specified string of these letters, parsing their order, how they are
+divided into words, as well as a parenthetical syntax that allows for generating
+"pulses" as an alternative to holding out notes indefinitely. From this sequence
+of letters and parenthesis, the program builds a graph of audio processor nodes
+which is ultimately connected out to your speakers.
 
 The audio processor nodes are fairly rudimentary at the moment, but the LetterRegistry
 and TypeTable data structures makes adding new nodes very straightforward and minimizes
