@@ -92,6 +92,7 @@ Files:
 
 In the root directory, build with:
 ```
+cmake <-G generator - if necessary/desired for your system> -B build
 cmake --build build
 ```
 This may take a bit of time as it needs to download the dependent libraries.
