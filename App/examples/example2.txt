@@ -1,0 +1,16 @@
+SET c sin note 63
+SET h square note 67
+SET o sin note 70
+SET r filter cutoff 1200
+SET d sin note 74
+SET s reverb wet 0.3 dry 0.7 size 0.9
+SET x midi on 2 off 1 bpm 300
+SET i midi on 2 off 1 bpm 300
+SET y midi on 1 off 0 bpm 60
+SET l sin note 60
+SET o triangle note 65
+SET v saw note 57
+SET e filter cutoff 2500
+SET k triangle note 41
+"y(i(love)s x(chord)s) ke" // I love chords!
+PLAY

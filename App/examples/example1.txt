@@ -1,0 +1,22 @@
+SET a saw note 48
+SET s saw note 43
+SET f filter cutoff 700
+SET x midi on 1 off 1 bpm 200
+SET v midi on 1 off 2 bpm 280
+SET g triangle note 52
+SET h square note 55
+SET j noise note 59
+SET q sin note 59
+SET k triangle note 60
+SET l triangle note 64
+SET k triangle note 62          
+SET y midi on 1 off 0 bpm 280
+SET o midi on 3 off 1 bpm 280
+SET n square note 74
+SET z midi on 1 off 1 bpm 480
+SET c filter 1200
+SET r reverb wet 0.9 dry 0.1
+SET d delay
+SET b midi on 4 off 2
+"b (x (af) v (sf)) o(y (g hr y (j q) k ld)) x(jc)"
+PLAY
